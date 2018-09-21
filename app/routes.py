@@ -6,4 +6,4 @@ from app import app
 def index():
     user = { 'username' : 'Kamalogudah'}
     return render_template('index.html', title='Home', user=user)
-    
+
